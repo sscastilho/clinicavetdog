@@ -52,7 +52,7 @@ Faça contato com nosso atendimento e marque uma consulta com nossa equipe médi
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.822772541183!2d-46.526030485339874!3d-23.466856463993413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef5501ee10d81%3A0xbee6a1381faa6394!2sAv.%20Paulo%20Faccini%20-%20Macedo%2C%20Guarulhos%20-%20SP%2C%2007111-000!5e0!3m2!1spt-BR!2sbr!4v1669576983955!5m2!1spt-BR!2sbr" width="990" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             
                 <!-- Aqui vai o seu rodapé -->
-                
+               
             </div>
         </div>
     </div>
