@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -55,4 +56,5 @@ Faça contato com nosso atendimento e marque uma consulta com nossa equipe médi
             </div>
         </div>
     </div>
-
+</body>
+</html>
