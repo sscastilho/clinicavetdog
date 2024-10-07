@@ -1,49 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pronto Socorro Veterinário</title>
     <link rel="stylesheet" href="base.css">
+    <title>Página Principal</title>
 </head>
 <body>
     <div class="wrapper">
-        <div class="menu">
+        <header class="header">
+            <h1>Bem-vindo à Clínica Veterinária</h1>
+            <img src="imagem_header.jpg" alt="Imagem da clínica">
+        </header>
+
+        <nav class="menu">
             <ul>
                 <li><a href="index.html">Página Principal</a></li>
                 <li><a href="sobre.html">Sobre a Clínica</a></li>
                 <li><a href="horario.html">Horário de Atendimento</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="main">
-            <div class="header">
-                <h1><b><font color="red">PRONTO SOCORRO VETERINÁRIO 24H</font></b></h1>
-                <img src="https://www.hvpontovet.com.br/images/animals/dog1.png" width="300">
-                <img src="https://t3.ftcdn.net/jpg/01/07/40/56/240_F_107405647_4nI4vw8n9eb7OnBqZHwk0aJmq9XpQNEK.jpg" width="268">
-                <img src="https://t4.ftcdn.net/jpg/01/99/36/87/240_F_199368710_lNRtXSF4GM6CFcQC2cvZhIAvVk1WPWs1.jpg" width="268">
-            </div>
-
-            <div class="content">
-                <p>O <strong>PRONTO SOCORRO VETERINÁRIO 24H</strong> está localizado em Guarulhos, possui uma equipe médica plenamente qualificada...</p>
-                <br>
-                <iframe width="300" height="225" src="https://www.youtube-nocookie.com/embed/Sx15ERRVmfA?start=61" frameborder="0" allowfullscreen></iframe>
-                <iframe width="300" height="225" src="https://www.youtube-nocookie.com/embed/dgwItp0cq2E?start=61" frameborder="0" allowfullscreen></iframe>
-                <iframe width="300" height="225" src="https://www.youtube-nocookie.com/embed/otx_1Fa29mY?start=61" frameborder="0" allowfullscreen></iframe>
-                <br><br><br>
-                <p>Faça contato com nosso atendimento e marque uma consulta com nossa equipe médica.</p>
-            </div>
-
-            <div class="footer">
-                <p><b>Endereço:</b> Av. Paulo Faccini, 0 - Macedo, Guarulhos - SP</p>
-                <p><b>Telefone:</b> 11 3090-2317</p>
-                <p><b>WhatsApp:</b> 11 9 8888-0000</p>
-                <p><b>Atendimento:</b> 24 horas, de Segunda a Domingo.</p>
-                <iframe src="https://www.google.com/maps/embed?..." width="990" height="225" style="border:0;" allowfullscreen=""></iframe>
+        <div class="content">
+            <h2>Nossos Vídeos</h2>
+            <div class="video-container">
+                <iframe src="video1.mp4" title="Vídeo 1" frameborder="0" allowfullscreen></iframe>
+                <iframe src="video2.mp4" title="Vídeo 2" frameborder="0" allowfullscreen></iframe>
+                <iframe src="video3.mp4" title="Vídeo 3" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
+
+        <footer class="footer">
+            <p>&copy; 2024 Clínica Veterinária. Todos os direitos reservados.</p>
+        </footer>
     </div>
 </body>
 </html>
