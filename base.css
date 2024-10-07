@@ -25,7 +25,7 @@ html, body {
 }
 
 .menu {
-    background-color: #ffffff; /* Fundo branco */
+    background-color: #e8f5e9; /* Cor suave (verde claro) */
     padding: 15px; /* Espaçamento interno */
 }
 
@@ -44,7 +44,7 @@ html, body {
 }
 
 .menu ul li a:hover {
-    background-color: #e0f2f1; /* Fundo suave ao passar o mouse */
+    background-color: #c8e6c9; /* Fundo suave ao passar o mouse */
     border-radius: 5px; /* Bordas arredondadas */
 }
 
