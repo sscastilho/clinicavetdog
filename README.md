@@ -1,60 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pronto Socorro Veterinário</title>
-    <link rel="stylesheet" href="base.css">
-</head>
-<body>
-    <div class="wrapper">
-        <div class="menu">
-            <!-- Aqui vai o seu menu -->
-            <ul>
-                <li><a href="Página Principal.html">Página Principal</a></li>
-                <li><a href="Sobre a clínica.html">Sobre a clínica</a></li>
-                <li><a href="Horário de Atendimento">Horário de Atendimento</a></li>
-                <li><a href="Contato">Contato</a></li>
-            </ul>
-        </div>
+# Pronto Socorro Veterinário 24H
 
-        <div class="main">
-            <div class="header">
-                <H1><b><font color="Ivory">PRONTO SOCORRO VETERINÁRIO 24H</font></b></H1>
-                <div>
-                <img src="https://www.hvpontovet.com.br/images/animals/dog1.png" width="300">
-                    <img src="https://caesegatos.com.br/wp-content/uploads/2021/08/clinica-1024x664.png" width="275">
-                        <img src="https://vetnasa.com.br/wp-content/uploads/2022/01/veterinarian-doctor-wearing-medical-mask-with-cat-scaled-1-1024x683.jpg" width="268">
-                <!-- Aqui vai o seu header -->
-            </div>
-            <br />
-            <br />
-        
-            <div class="content">
-            <p>O<strong> PRONTO SOCORRO VETERINÁRIO 24H</strong> está localizado em Guarulhos, possui uma equipe médica plenamente qualificada, atendendo em diferentes especialidades veterinárias e emergências.
-Com equipamentos tecnológicos de ponta, a missão do Hospital é proporcionar os cuidados necessários para rápida recuperação e tranquilidade aos seus proprietários. No próprio local é possível realizar exames laboratoriais, raio-x, ultrassom e diversos outros para seu animal.</p>
-<br />
-<iframe width="300" height="225" src="https://www.youtube-nocookie.com/embed/Sx15ERRVmfA?start=61" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="300" height="225" src="https://www.youtube-nocookie.com/embed/dgwItp0cq2E?start=61" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="300" height="225" src="https://www.youtube-nocookie.com/embed/otx_1Fa29mY?start=61" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br /><br /><br />
-Faça contato com nosso atendimento e marque uma consulta com nossa equipe médica.
-                <!-- Aqui vai o seu conteúdo -->
-            </div>
-    
-            <div class="footer">
-                <br />
-            <font color="Aquamarine"> <b>Endereço:</b> </font> <font color="AliceBlue"> Av. Paulo Faccini, 0 - Macedo<br /></font>
-            <font color="Aquamarine"><b>Telefone:</b></font> <font color="AliceBlue">11 3090-2317</font> <font color="Aquamarine"><b>Cel./WhatsApp:</b></font> <font color="AliceBlue">11 9 8888-0000 <br /></font>
-             <font color="Aquamarine"><b>Atendimento:</b></font><font color="AliceBlue"> 24 horas de Segunda a Domingo.</font>
-            </br></br>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.822772541183!2d-46.526030485339874!3d-23.466856463993413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef5501ee10d81%3A0xbee6a1381faa6394!2sAv.%20Paulo%20Faccini%20-%20Macedo%2C%20Guarulhos%20-%20SP%2C%2007111-000!5e0!3m2!1spt-BR!2sbr!4v1669576983955!5m2!1spt-BR!2sbr" width="990" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            
-                <!-- Aqui vai o seu rodapé -->
-                
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+Este é o repositório do site da **Clínica Veterinária 24H**, criado como parte de um desafio de desenvolvimento web. O site oferece informações sobre a clínica, incluindo serviços, horários de atendimento e formas de contato.
+
+## Funcionalidades
+
+- **Página Principal:** Introdução à clínica com informações básicas e imagens.
+- **Sobre a Clínica:** Texto descritivo sobre a história e a missão da clínica.
+- **Horário de Atendimento:** Detalha os horários de atendimento e uma tabela de serviços com dias e horários.
+- **Contato:** Exibe informações de contato, um formulário de contato e a localização no Google Maps.
+
+## Estrutura do Projeto
+
+- **Página Principal:** `index.html`
+- **Sobre a Clínica:** `sobre.html`
+- **Horário de Atendimento:** `horario.html`
+- **Contato:** `contato.html`
+- **CSS Base:** `base.css`
+
+### Estrutura das Páginas
+
+1. **Menu de Navegação Padrão:** Disponível em todas as páginas.
+2. **Header:** Cada página possui uma imagem no topo para identificação visual.
+3. **Content:** O conteúdo varia de acordo com a página, seguindo a estrutura de texto, imagens e, em alguns casos, tabelas e formulários.
+4. **Footer:** Contém informações de contato e localização, exibindo também o Google Maps na página de Contato.
+
+## Tecnologias Utilizadas
+
+- **HTML5:** Para estruturação de conteúdo.
+- **CSS3:** Para estilização das páginas e criação de um layout responsivo.
+- **GitHub Pages:** Para hospedagem do site.
+
+## Como Acessar
+
+Você pode acessar o site diretamente através do GitHub Pages [aqui]([https://sscastilho.github.io/clinicavetdog](https://github.com/sscastilho/clinicavetdog/edit/main/README.md)).
+
+## Como Rodar Localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/sscastilho/clinicavetdog.git
+
+Melhorias Futuras
+Melhorar a responsividade para dispositivos móveis.
+Adicionar mais interatividade com JavaScript (ex.: validação de formulário).
+Implementar funcionalidades adicionais, como agendamento de consultas online.
+
+Contato
+Endereço: Av. Paulo Faccini, 0 - Macedo, Guarulhos
+Telefone: (11) 3090-2317
+WhatsApp: (11) 9 8888-0000
+Email: contato@clinicaveterinaria.com.br
+
+Desenvolvido por Sullivan Castilho.
