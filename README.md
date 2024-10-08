@@ -32,7 +32,7 @@ Este é o repositório do site da **Clínica Veterinária 24H**, criado como par
 
 ## Como Acessar
 
-Você pode acessar o site diretamente através do GitHub Pages [aqui]([https://sscastilho.github.io/clinicavetdog](https://github.com/sscastilho/clinicavetdog/edit/main/README.md)).
+Você pode acessar o site diretamente através do GitHub Pages [aqui]([[https://sscastilho.github.io/clinicavetdog](https://github.com/sscastilho/clinicavetdog/edit/main/README.md)](https://sscastilho.github.io/clinicavetdog/index.html)).
 
 ## Como Rodar Localmente
 
