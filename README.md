@@ -49,6 +49,6 @@ Contato
 Endereço: Av. Paulo Faccini, 0 - Macedo, Guarulhos
 Telefone: (11) 3090-2317
 WhatsApp: (11) 9 8888-0000
-Email: contato@clinicaveterinaria.com.br
+Email: contato@clinicavetdog.com
 
 Desenvolvido por Sullivan Castilho.
