@@ -6,6 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horário de Atendimento</title>
     <link rel="stylesheet" href="base.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        table th, table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #4caf50;
+            color: white;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        table tr:hover {
+            background-color: #ddd;
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -26,7 +53,7 @@
 
             <div class="content">
                 <h2>Serviços e Horários</h2>
-                <table border="1" cellspacing="0" cellpadding="10">
+                <table>
                     <thead>
                         <tr>
                             <th>Serviço</th>
