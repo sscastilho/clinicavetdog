@@ -12,12 +12,13 @@
             border-collapse: collapse;
             margin: 20px 0;
             font-size: 18px;
-            text-align: left;
+            text-align: center; /* Centraliza todo o texto na tabela */
         }
 
         table th, table td {
             padding: 12px 15px;
             border: 1px solid #ddd;
+            text-align: center; /* Centraliza o texto em th e td */
         }
 
         table th {
@@ -31,6 +32,11 @@
 
         table tr:hover {
             background-color: #ddd;
+        }
+
+        .emoji {
+            margin-right: 8px; /* Espaçamento entre o emoji e o texto */
+            vertical-align: middle; /* Alinha verticalmente o emoji */
         }
     </style>
 </head>
@@ -62,23 +68,23 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Consultas</td>
+                            <td><span class="emoji">🐾</span>Consultas</td>
                             <td>24 horas</td>
                         </tr>
                         <tr>
-                            <td>Emergências</td>
+                            <td><span class="emoji">🚑</span>Emergências</td>
                             <td>24 horas</td>
                         </tr>
                         <tr>
-                            <td>Cirurgias</td>
+                            <td><span class="emoji">👨‍⚕️</span>Cirurgias</td> <!-- Doutor com máscara -->
                             <td>24 horas</td>
                         </tr>
                         <tr>
-                            <td>Vacinação</td>
+                            <td><span class="emoji">💉</span>Vacinação</td>
                             <td>24 horas</td>
                         </tr>
                         <tr>
-                            <td>Exames laboratoriais</td>
+                            <td><span class="emoji">🔬</span>Exames laboratoriais</td>
                             <td>24 horas</td>
                         </tr>
                     </tbody>
